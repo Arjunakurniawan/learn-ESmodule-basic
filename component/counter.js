@@ -1,7 +1,7 @@
 let count = 0;
 
 export function NewCounter() {
-  return count++;
+  return ++count;
 }
 
 export function CurrentCounter() {
